@@ -1,4 +1,3 @@
-/*************  ✨ Codeium Command ⭐  *************/
 # ETL-WEATHER
 
 Este repositório contém um projeto de Extração, Transformação e Carregamento (ETL) para dados de clima, utilizando a API do [WeatherAPI](https://www.weatherapi.com/).
@@ -51,8 +50,3 @@ O repositório contém um exemplo de notebook Jupyter para análise e visualiza�
 ## Contribuição
 
 Contribuições são bem-vindas! Para contribuir, basta abrir um pull request com as alterações desejadas.
-
-## Licença
-
-Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
-/******  65499905-89a2-4718-8cde-55e73d0a54b0  *******/
