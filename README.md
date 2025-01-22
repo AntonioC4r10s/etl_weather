@@ -22,7 +22,7 @@ O objetivo do projeto é criar um pipeline ETL para coletar, processar e carrega
 3. Crie um arquivo `.env` com as variáveis de ambiente necessárias:
 	* `W_API_KEY`: a chave da API do WeatherAPI
 	* `CITIES`: uma lista de cidades separadas por vírgula, exemplo: "paris,london,new york,tokyo,sydney"
-4. Execute o comando `python main.py` para executar o pipeline ETL
+4. Execute o comando `python run.py` para executar o pipeline ETL
 
 ## Funcionalidades
 
@@ -38,10 +38,6 @@ O pipeline ETL é dividido em quatro etapas:
 2. Transformação: o script `transform.py` processa os dados coletados e os transforma em um formato padrão
 3. Carregamento: o script `load.py` carrega os dados processados em uma base de dados
 4. Execução: o script `main.py` executa o pipeline ETL
-
-## Logs
-
-Os logs do pipeline ETL são gravados no diretório `logs/` e podem ser visualizados com o comando `prefect logs`
 
 ## Desenvolvimento
 

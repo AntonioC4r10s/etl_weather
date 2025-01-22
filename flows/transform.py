@@ -1,7 +1,20 @@
-from extract import cities
+from .extract import cities
 import json
 
 def transform():
+
+    """
+    Transforms raw weather data files into a list of dictionaries with processed information.
+
+    This function reads the latest weather data for each city from text files, 
+    processes the JSON data, and extracts relevant weather information. The processed 
+    data is stored in a list of dictionaries, each containing details such as 
+    name, region, country, temperature, weather condition, wind information, 
+    pressure, humidity, cloud coverage, UV index, and more.
+
+    Returns:
+        list: A list of dictionaries containing processed weather data for each city.
+    """
 
     json_cities_processed = []
     for city in cities:

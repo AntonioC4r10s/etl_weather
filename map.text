@@ -14,6 +14,4 @@ weather_etl_project/
 │   └── outputs/               # Relatórios e gráficos gerados
 ├── notebooks/                 # Notebooks Jupyter para exploração e análise dos dados
 │   └── analysis.ipynb         # Exemplo de notebook de análise
-├── logs/                      # Logs gerados pela execução do pipeline
-│   └── prefect_logs.log       # Exemplo de arquivo de log
 └── README.md                  # Documentação do projeto

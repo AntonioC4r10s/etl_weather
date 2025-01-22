@@ -1,9 +1,19 @@
 import pandas as pd
 import os
-from transform import transform
+from .transform import transform
 
 def load(data: list) -> None:
     
+    """
+    Save the processed data to CSV files in the "data/processed" directory.
+
+    The data is saved as one CSV file per city, with each row representing a single
+    measurement. The columns of the CSV file are the same as the keys in the 
+    dictionaries in the input list.
+
+    If the file does not exist, it is created. If it does exist, the new data is 
+    appended to the end of the file.
+    """
     for city_data in data:
         city = city_data["name"]
         path = f"data/processed/{city}.csv"
