@@ -1,0 +1,19 @@
+weather_etl_project/
+│
+├── .env                       # Arquivo para armazenar credenciais (API_KEY, etc.)
+├── .gitignore                 # Arquivo para ignorar o .env e outros arquivos desnecessários no Git
+├── main.py                    # Arquivo principal que executa o pipeline ETL
+├── flows/
+│   └── weather_flow.py        # Código do pipeline ETL usando o Prefect 
+│   ├── extract.py             # Funções para comunicação com a API
+│   ├── transform.py           # Funções de transformação e limpeza de dados
+│   └── load.py                # Configurações gerais do projeto
+├── data/
+│   ├── raw/                   # Dados brutos extraídos da API
+│   ├── processed/             # Dados processados para análises
+│   └── outputs/               # Relatórios e gráficos gerados
+├── notebooks/                 # Notebooks Jupyter para exploração e análise dos dados
+│   └── analysis.ipynb         # Exemplo de notebook de análise
+├── logs/                      # Logs gerados pela execução do pipeline
+│   └── prefect_logs.log       # Exemplo de arquivo de log
+└── README.md                  # Documentação do projeto
