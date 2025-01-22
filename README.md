@@ -39,10 +39,6 @@ O pipeline ETL é dividido em quatro etapas:
 3. Carregamento: o script `load.py` carrega os dados processados em uma base de dados
 4. Execução: o script `main.py` executa o pipeline ETL
 
-## Desenvolvimento
-
-O repositório contém um exemplo de notebook Jupyter para análise e visualização dos dados.
-
 ## Contribuição
 
 Contribuições são bem-vindas! Para contribuir, basta abrir um pull request com as alterações desejadas.
